@@ -12,9 +12,9 @@
 2. `mpm run dev`
 
 # Endpoints
- Get ALL
+ 1. Get ALL
 `http://localhost:9090/api/v1/volumes`
-Get ById
+ 2. Get ById
 `http://localhost:9090/api/v1/volumes/:id`
 
 
