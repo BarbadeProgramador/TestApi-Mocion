@@ -13,5 +13,5 @@
 
 
 > [!IMPORTANT]
-> `Inicilizar primero el servicio backend para consumir las rutas con express`
+> `Inicilizar primero el servicio backend para consumir los endpoints con express`
 
