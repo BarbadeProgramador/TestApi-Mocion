@@ -1,17 +1,17 @@
 # TEST API MOCION 
 
 ## Clonar repositorio 
-git clone https://github.com/BarbadeProgramador/TestApi-Mocion.git
+`git clone https://github.com/BarbadeProgramador/TestApi-Mocion.git`
 
-##Instalacion de dependencias Backend 
+## Instalacion de dependencias Backend y Ejecucion
 1.`mpm install `
-
-## Ejecucion del  Backend 
 2-`node app.js`
 
-## Instalacion de dependencias Frontend
+## Instalacion de dependencias Frontend y Ejecucion
 1.`mpm install `
-
-## Ejecucion del Frontend
 2.`mpm run dev`
+
+
+> [!IMPORTANT]
+> `Iniciliar primero el servicio backend para consumir las rutas con express`
 
