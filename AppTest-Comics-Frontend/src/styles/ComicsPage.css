@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.titleComic{
+  font-size: 22px;
+  font-family: 'Bangers', cursive;
+  color:  #ffff00;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px; 
+    padding-top: 75px;    
+    justify-content: center;
+  }
+
+  @media (max-width: 560px){
+    .grid-container{
+      grid-template-columns: 100%;
+      padding: 40px;
+    }
+  }
+  
+
+  .list-container {
+    display: block; 
+  }
+  
+
+  .comic-item {
+    border: 1px solid #525050; 
+    border-radius: 7px;
+    background-color: #3a3a3a;
+    text-align: center; 
+    transition: 0.5s;
+    background-color: rgb(25, 2, 2);
+  }
+
+  .comic-item:hover{
+    opacity: 0.5;
+    transform: translateY(-30px);
+    transition: 0.5s;
+  }
+  /* Estilos generales para el spinner */
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la pantalla */
+  width: 100vw; /* Asegura que sea del tamaño de la pantalla */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999; /* Asegura que esté por encima de otros elementos */
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con algo de transparencia */
+}
+
+/* Estructura del spinner */
+.comic-spinner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Texto animado con estilo de cómic */
+.comic-text {
+  font-family: 'Bangers', cursive;
+  font-size: 36px;
+  color: #ff4d4f;
+  text-shadow: 2px 2px #000;
+  animation: shake 1.5s infinite;
+  margin-bottom: 10px;
+}
+
+/* Círculo animado alrededor del texto */
+.comic-circle {
+  border: 6px solid #ff4d4f;
+  border-top: 6px solid #fdd835;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 1s linear infinite;
+}
+
+/* Animación de "temblor" para el texto */
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(3deg); }
+  50% { transform: rotate(-3deg); }
+  75% { transform: rotate(1deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Animación de giro para el círculo */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+  .comic-item img {
+    max-width: 100%;
+    height: auto; 
+  }
+  
