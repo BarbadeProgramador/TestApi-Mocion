@@ -3,11 +3,11 @@
 ## Clonar repositorio 
 `git clone https://github.com/BarbadeProgramador/TestApi-Mocion.git`
 
-## Instalacion de dependencias Backend y Ejecucion
+## Instalacion de dependencias Backend Express y Ejecucion
 1. `mpm install `
 2. `node app.js`
 
-## Instalacion de dependencias Frontend y Ejecucion
+## Instalacion de dependencias Frontend React y Ejecucion
 1. `mpm install `
 2. `mpm run dev`
 
