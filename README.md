@@ -4,12 +4,12 @@
 `git clone https://github.com/BarbadeProgramador/TestApi-Mocion.git`
 
 ## Instalacion de dependencias Backend Express y Ejecucion
-1. `mpm install `
+1. `npm install `
 2. `node app.js`
 
 ## Instalacion de dependencias Frontend React y Ejecucion
-1. `mpm install `
-2. `mpm run dev`
+1. `npm install `
+2. `npm run dev`
 
 # Endpoints
  1. Get ALL
